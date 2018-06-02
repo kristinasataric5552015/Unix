@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+ 
 
 echo " Zdravo!!"
 
@@ -21,6 +22,7 @@ do
 	fi
 	ask
 done
+
 
 echo " Cestitam! "
 echo "---" && ls -1
