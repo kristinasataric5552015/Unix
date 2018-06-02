@@ -8,5 +8,6 @@ README.md: guessinggame.sh
 	echo -n "\n Linije koda unutar skirpte: " >> README.md
 	grep -c '' guessinggame.sh >> README.md
 
+
 clean:
 rm README.md
