@@ -5,7 +5,7 @@ README.md: guessinggame.sh
 	echo "\n guessinggame.sh" >> README.md
 	echo -n "\n Datum kad smo pravili: " >> README.md
 	date >> README.md
-	echo -n "\n Linije koda unutar skirpte: " >> README.md
+	echo -n "\n Linije koda unutar skipte: " >> README.md
 	grep -c '' guessinggame.sh >> README.md
 
 clean:
